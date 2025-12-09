@@ -6,7 +6,7 @@
             <p>Built for Web Technologies Class Project</p>
             <div class="footer-links">
                 <a href="<?php echo SITE_URL; ?>/pages/about.php">About</a>
-                <a href="<?php echo SITE_URL; ?>/pages/contact.php">Contact</a>
+                <a href="https://lawrencia-baffour-portfolio.netlify.app/" target="_blank">Contact</a>
                 <a href="<?php echo SITE_URL; ?>/pages/privacy.php">Privacy</a>
                 <a href="<?php echo SITE_URL; ?>/pages/terms.php">Terms</a>
             </div>

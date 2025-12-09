@@ -32,7 +32,7 @@ require_once 'includes/header.php';
     <?php else: ?>
         <div class="hero-buttons">
             <a href="pages/upload.php" class="btn btn-primary">Upload Audio</a>
-            <a href="pages/dashboard.php" class="btn btn-secondary">Go to Dashboard</a>
+            
         </div>
     <?php endif; ?>
 </div>
