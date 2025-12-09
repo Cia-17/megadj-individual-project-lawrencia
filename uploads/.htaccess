@@ -1,0 +1,12 @@
+# Prevent direct access to uploads folder
+Options -Indexes
+
+# Allow audio files to be played
+<FilesMatch "\.(mp3|wav|ogg)$">
+    Allow from all
+</FilesMatch>
+
+# Allow image files to be viewed
+<FilesMatch "\.(jpg|jpeg|png|gif)$">
+    Allow from all
+</FilesMatch>
