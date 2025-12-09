@@ -5,11 +5,11 @@ define('DB_PASS', '');
 define('DB_NAME', 'megadj_db');
 
 define('SITE_NAME', 'MegaDj');
-define('SITE_URL', 'http://localhost/megadj'); 
+define('SITE_URL', 'http://localhost/megadj-individual-project-lawrencia/'); 
 
 
-define('MAX_AUDIO_SIZE', 10 * 1024 * 1024); // 10MB
-define('MAX_IMAGE_SIZE', 2 * 1024 * 1024);  // 2MB
+define('MAX_AUDIO_SIZE', 50 * 1024 * 1024); // 50MB
+define('MAX_IMAGE_SIZE', 5 * 1024 * 1024);  // 5MB
 define('ALLOWED_AUDIO_TYPES', ['audio/mpeg', 'audio/wav', 'audio/mp3']);
 define('ALLOWED_IMAGE_TYPES', ['image/jpeg', 'image/png', 'image/gif']);
 
